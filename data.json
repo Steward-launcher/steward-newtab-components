@@ -1,0 +1,13 @@
+{
+  "components": [
+    {
+      "version": 1,
+      "name": "Simple Clock",
+      "icon": "https://i.postimg.cc/dV09mVQx/clock.png",
+      "title": "简易时钟",
+      "subtitle": "数字时间，hover 时显示秒数",
+      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/simple.clock.vue",
+      "author": "tomasy"
+    }
+  ]
+}
