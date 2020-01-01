@@ -1,12 +1,12 @@
 <template>
-    <div class="clock">
+    <div class="sp-simple-clock">
         <div class="time">{{ time }}</div>
         <div class="date">{{ date }}</div>
     </div>    
 </template>
 <script>
 module.exports = {
-    name: 'clock',
+    name: 'simple-clock',
     data() {
         return {
             time: this.$dayjs().format('HH:mm'),
@@ -29,21 +29,24 @@ module.exports = {
 }
 </script>
 <style>
-    .clock {
-        position: relative;
+    .sp-simple-clock {
+        position: fixed;
+        bottom: 33px;
+        right: 14px;
+        z-index: 10;
     }
 
-    .clock:hover .date {
+    .sp-simple-clock:hover .date {
       opacity: 1;
     }
 
-    .clock .time {
+    .sp-simple-clock .time {
         font-size: 80px;
         color: #fff;
         font-weight: 100;
     }
 
-    .clock .date {
+    .sp-simple-clock .date {
         position: absolute;
         bottom: -10px;
         right: 0.4em;
