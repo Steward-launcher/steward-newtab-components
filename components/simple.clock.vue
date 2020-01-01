@@ -5,14 +5,12 @@
     </div>    
 </template>
 <script>
-const dayjs = window.steward.dayjs
-
 module.exports = {
     name: 'clock',
     data() {
         return {
-            time: dayjs().format('HH:mm'),
-            date: dayjs().format('YYYY-MM-DD')
+            time: this.$dayjs().format('HH:mm'),
+            date: this.$dayjs().format('YYYY-MM-DD')
         };
     },
 
@@ -24,11 +22,11 @@ module.exports = {
 
     methods: {
         count() {
-            this.time = dayjs().format('HH:mm');
-            this.date = dayjs().format('YYYY-MM-DD');
+            this.time = this.$dayjs().format('HH:mm');
+            this.date = this.$dayjs().format('YYYY-MM-DD');
         }
     }
-} 
+}
 </script>
 <style>
     .clock {
