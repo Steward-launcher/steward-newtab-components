@@ -2,12 +2,13 @@
   "components": [
     {
       "version": 1,
-      "name": "Simple Clock",
+      "id": "simple-clock",
       "icon": "https://i.postimg.cc/dV09mVQx/clock.png",
-      "title": "简易时钟",
-      "subtitle": "数字时间，hover 时显示秒数",
+      "title": "Simple Clock",
+      "subtitle": "Simple Clock",
       "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/simple.clock.vue",
-      "author": "tomasy"
+      "author": "solobat",
+      "grid": [20, 11, 4, 2]
     }
   ]
 }
