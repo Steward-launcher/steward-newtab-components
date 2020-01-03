@@ -7,7 +7,7 @@
     </div>
 </template>
 <script>
-export default {
+module.exports = {
     name: 'shortcuts',
 
     data() {
