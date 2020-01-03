@@ -30,9 +30,8 @@ module.exports = {
 </script>
 <style>
     .sp-simple-clock {
-        position: fixed;
-        bottom: 33px;
-        right: 14px;
+        display: inline-block;
+        position: relative;
         z-index: 10;
     }
 
