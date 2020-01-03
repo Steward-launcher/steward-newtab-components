@@ -1,22 +1,22 @@
 {
   "components": [
     {
-      "version": 1,
+      "version": "0.1.0",
       "id": "shortcuts",
       "icon": "https://i.postimg.cc/mZm10Whz/image.png",
       "title": "Shortcuts",
       "subtitle": "Shortcuts",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/shortcuts.vue",
+      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/shortcuts/0.1.0/index.vue",
       "author": "solobat",
       "grid": [0, 0, 10, 1]
     },
     {
-      "version": 1,
+      "version": "0.1.0",
       "id": "simple-clock",
       "icon": "https://i.postimg.cc/dV09mVQx/clock.png",
       "title": "Simple Clock",
       "subtitle": "Simple Clock",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/simple.clock.vue",
+      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/simple.clock/0.1.0/index.vue",
       "author": "solobat",
       "grid": [20, 11, 4, 2]
     }
