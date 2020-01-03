@@ -11,12 +11,12 @@
       "grid": [0, 0, 10, 1]
     },
     {
-      "version": "0.1.0",
+      "version": "0.1.1",
       "id": "simple-clock",
       "icon": "https://i.postimg.cc/dV09mVQx/clock.png",
       "title": "Simple Clock",
       "subtitle": "Simple Clock",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/simple.clock/0.1.0/index.vue",
+      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/simple.clock/0.1.1/index.vue",
       "author": "solobat",
       "grid": [20, 11, 4, 2]
     }
