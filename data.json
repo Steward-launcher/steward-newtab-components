@@ -21,12 +21,12 @@
       "grid": [20, 11, 4, 2]
     },
     {
-      "version": "0.1.0",
+      "version": "0.1.1",
       "id": "notes",
       "icon": "https://i.postimg.cc/0ysszS3T/note.png",
       "title": "Notes",
       "subtitle": "Show a random note",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/notes/0.1.0/index.vue",
+      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/notes/0.1.1/index.vue",
       "author": "solobat",
       "grid": [6, 11, 12, 1]
     }
