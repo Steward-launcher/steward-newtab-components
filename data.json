@@ -29,6 +29,16 @@
       "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/notes/0.1.1/index.vue",
       "author": "solobat",
       "grid": [6, 11, 12, 1]
+    },
+    {
+      "version": "0.1.0",
+      "id": "coin-ticker",
+      "icon": "https://i.postimg.cc/QCTF5MBN/btc-01.png",
+      "title": "Coin Ticker",
+      "subtitle": "Coin Ticker",
+      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/coin.ticker/0.1.0/index.vue",
+      "author": "solobat",
+      "grid": [0, 0, 4, 2]
     }
   ]
 }
