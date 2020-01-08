@@ -88,6 +88,10 @@ module.exports = {
 </script>
 
 <style>
+.sp-fmzlog {
+  padding: 4px 8px;
+  background: rgba(0, 0, 0, 0.3);
+}
 .sp-fmzlog-item {
   font-size: 14px;
   font-weight: 500;
@@ -95,7 +99,7 @@ module.exports = {
 }
 
 .sp-fmzlog-item.sp-fmzlog-normal {
-  color: #303133;
+  color: #aaa;
 }
 
 .sp-fmzlog-item.sp-fmzlog-success {
