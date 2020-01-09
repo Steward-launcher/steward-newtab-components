@@ -54,6 +54,20 @@
         "secretKey": "xxx",
         "robotId": 12345
       }
+    },
+    {
+      "version": "0.1.0",
+      "id": "xueqiu",
+      "icon": "https://assets.imedao.com/images/favicon.png",
+      "title": "xueqiu timeline",
+      "subtitle": "xueqiu timeline",
+      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/xueqiu/0.1.0/index.vue",
+      "author": "solobat",
+      "grid": [0, 3, 8, 5],
+      "args": {
+        "user_id": "6784593966",
+        "type": 0
+      }
     }
   ]
 }
