@@ -33,6 +33,9 @@ module.exports = {
 
   mounted() {
     this.random()
+    setInterval(() => {
+      this.random()
+    }, 60 * 1000);
   }
 }
 </script>
@@ -43,7 +46,7 @@ module.exports = {
     background: rgba(0, 0, 0, .3);
     padding: 10px;
     bottom: 0;
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
     overflow: hidden;
     text-align: center;
