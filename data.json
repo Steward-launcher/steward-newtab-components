@@ -3,7 +3,7 @@
     {
       "version": "0.1.0",
       "id": "shortcuts",
-      "icon": "https://i.postimg.cc/mZm10Whz/image.png",
+      "icon": "https://i.imgur.com/4NVFlf3.png",
       "title": "Shortcuts",
       "subtitle": "Shortcuts",
       "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/shortcuts/0.1.0/index.vue",
@@ -13,7 +13,7 @@
     {
       "version": "0.1.2",
       "id": "simple-clock",
-      "icon": "https://i.postimg.cc/dV09mVQx/clock.png",
+      "icon": "https://i.imgur.com/t9MdVXO.png",
       "title": "Simple Clock",
       "subtitle": "Simple Clock",
       "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/simple.clock/0.1.2/index.vue",
@@ -23,7 +23,7 @@
     {
       "version": "0.1.2",
       "id": "notes",
-      "icon": "https://i.postimg.cc/0ysszS3T/note.png",
+      "icon": "https://i.imgur.com/1N2BIcD.png",
       "title": "Notes",
       "subtitle": "Show a random note",
       "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/notes/0.1.2/index.vue",
@@ -33,7 +33,7 @@
     {
       "version": "0.1.1",
       "id": "coin-ticker",
-      "icon": "https://i.postimg.cc/QCTF5MBN/btc-01.png",
+      "icon": "https://i.imgur.com/JrpyOr3.png",
       "title": "Coin Ticker",
       "subtitle": "Coin Ticker",
       "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/coin.ticker/0.1.1/index.vue",
