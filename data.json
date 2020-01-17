@@ -68,6 +68,20 @@
         "user_id": "6784593966",
         "type": 0
       }
+    },
+    {
+      "version": "0.1.0",
+      "id": "wordcard",
+      "icon": "https://i.postimg.cc/7Y94hSrM/icon.png",
+      "title": "wordcard",
+      "subtitle": "wordcard",
+      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/wordcard/0.1.0/index.vue",
+      "author": "solobat",
+      "grid": [0, 4, 7, 3],
+      "args": {
+        "extID": "oegblnjiajbfeegijlnblepdodmnddbk",
+        "interval": 60000
+      }
     }
   ]
 }
