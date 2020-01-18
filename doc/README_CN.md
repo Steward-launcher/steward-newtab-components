@@ -34,7 +34,7 @@ window.stewardApp = {
 ```
 
 ### 在[data.json](../data.json)中配置组件
-```json
+```js
 {
   // required
   "version": "0.1.0",

@@ -36,7 +36,7 @@ window.stewardApp = {
 ```
 
 ### Configure the component in [data.json](../data.json)
-```json
+```js
 {
   // required
   "version": "0.1.0",
