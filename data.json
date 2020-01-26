@@ -6,7 +6,7 @@
       "icon": "https://i.imgur.com/4NVFlf3.png",
       "title": "Shortcuts",
       "subtitle": "Shortcuts",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/shortcuts/0.1.0/index.vue",
+      "source": "/components/shortcuts/0.1.0/index.vue",
       "author": "solobat",
       "grid": [0, 0, 10, 1]
     },
@@ -16,7 +16,7 @@
       "icon": "https://i.imgur.com/t9MdVXO.png",
       "title": "Simple Clock",
       "subtitle": "Simple Clock",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/simple.clock/0.1.2/index.vue",
+      "source": "/components/simple.clock/0.1.2/index.vue",
       "author": "solobat",
       "grid": [20, 11, 4, 2]
     },
@@ -26,7 +26,7 @@
       "icon": "https://i.imgur.com/1N2BIcD.png",
       "title": "Notes",
       "subtitle": "Show a random note",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/notes/0.1.2/index.vue",
+      "source": "/components/notes/0.1.2/index.vue",
       "author": "solobat",
       "grid": [6, 11, 12, 1]
     },
@@ -36,7 +36,7 @@
       "icon": "https://i.imgur.com/JrpyOr3.png",
       "title": "Coin Ticker",
       "subtitle": "Coin Ticker",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/coin.ticker/0.1.1/index.vue",
+      "source": "/components/coin.ticker/0.1.1/index.vue",
       "author": "solobat",
       "grid": [0, 0, 4, 2]
     },
@@ -46,7 +46,7 @@
       "icon": "https://www.fmz.com/images/badge.png",
       "title": "FMZ Log",
       "subtitle": "FMZ Log",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/fmzlog/0.1.2/index.vue",
+      "source": "/components/fmzlog/0.1.2/index.vue",
       "author": "solobat",
       "grid": [5, 0, 4, 2],
       "args": {
@@ -61,7 +61,7 @@
       "icon": "https://assets.imedao.com/images/favicon.png",
       "title": "xueqiu timeline",
       "subtitle": "xueqiu timeline",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/xueqiu/0.1.0/index.vue",
+      "source": "/components/xueqiu/0.1.0/index.vue",
       "author": "solobat",
       "grid": [0, 3, 8, 5],
       "args": {
@@ -75,7 +75,7 @@
       "icon": "https://i.postimg.cc/7Y94hSrM/icon.png",
       "title": "wordcard",
       "subtitle": "wordcard",
-      "source": "https://raw.githubusercontent.com/Steward-launcher/steward-newtab-components/master/components/wordcard/0.1.0/index.vue",
+      "source": "/components/wordcard/0.1.0/index.vue",
       "author": "solobat",
       "grid": [0, 4, 7, 3],
       "args": {
