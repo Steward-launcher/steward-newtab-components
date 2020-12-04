@@ -41,7 +41,7 @@
       "grid": [0, 0, 4, 2]
     },
     {
-      "version": "0.1.2",
+      "version": "0.1.3",
       "id": "fmzlog",
       "icon": "https://www.fmz.com/images/badge.png",
       "title": "FMZ Log",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "version": "0.1.0",
+      "version": "0.1.1",
       "id": "xueqiu",
       "icon": "https://assets.imedao.com/images/favicon.png",
       "title": "xueqiu timeline",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "version": "0.1.0",
+      "version": "0.1.1",
       "id": "wordcard",
       "icon": "https://i.postimg.cc/7Y94hSrM/icon.png",
       "title": "wordcard",
