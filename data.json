@@ -31,14 +31,26 @@
       "grid": [6, 11, 12, 1]
     },
     {
-      "version": "0.1.1",
+      "version": "0.1.2",
       "id": "coin-ticker",
       "icon": "https://i.imgur.com/JrpyOr3.png",
       "title": "Coin Ticker",
       "subtitle": "Coin Ticker",
-      "source": "/components/coin.ticker/0.1.1/index.vue",
+      "source": "/components/coin.ticker/0.1.2/index.vue",
       "author": "solobat",
-      "grid": [0, 0, 4, 2]
+      "grid": [0, 0, 4, 2],
+      "args": {
+        "pair": "BTCUSD_P"
+      },
+      "argsSchema": {
+        "type": "object",
+        "properties": {
+          "pair": {
+            "type": "string",
+            "enum": ["BTCUSD_P", "ETHUSD_P"]
+          }
+        }
+      }
     },
     {
       "version": "0.1.3",
