@@ -53,6 +53,20 @@
         "accessKey": "xxx",
         "secretKey": "xxx",
         "robotId": 12345
+      },
+      "argsSchema": {
+        "type": "object",
+        "properties": {
+          "accessKey": {
+            "type": "string"
+          },
+          "secretKey": {
+            "type": "string"
+          },
+          "robotId": {
+            "type": "number"
+          }
+        }
       }
     },
     {
@@ -67,6 +81,18 @@
       "args": {
         "user_id": "6784593966",
         "type": 0
+      },
+      "argsSchema": {
+        "type": "object",
+        "properties": {
+          "user_id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "number",
+            "enum": [-1,0,1,2,4,9]
+          }
+        }
       }
     },
     {
@@ -81,6 +107,19 @@
       "args": {
         "extID": "oegblnjiajbfeegijlnblepdodmnddbk",
         "interval": 60000
+      },
+      "argsSchema": {
+        "type": "object",
+        "properties": {
+          "extID": {
+            "type": "string",
+            "default": "oegblnjiajbfeegijlnblepdodmnddbk"
+          },
+          "interval": {
+            "type": "number",
+            "default": 60000
+          }
+        }
       }
     }
   ]
