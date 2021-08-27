@@ -108,12 +108,12 @@
       }
     },
     {
-      "version": "0.1.1",
+      "version": "0.1.2",
       "id": "wordcard",
       "icon": "https://i.postimg.cc/7Y94hSrM/icon.png",
       "title": "wordcard",
       "subtitle": "wordcard",
-      "source": "/components/wordcard/0.1.0/index.vue",
+      "source": "/components/wordcard/0.1.2/index.vue",
       "author": "solobat",
       "grid": [0, 4, 7, 3],
       "args": {
