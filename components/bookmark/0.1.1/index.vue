@@ -46,7 +46,9 @@ module.exports = {
       }
     },
 
-    async onRemoveClick() {
+    async onRemoveClick(event) {
+      event.stopPropagation();
+      event.preventDefault();
       await window.stewardApp.browser.bookmarks.remove(this.bookmark.id)
       this.random()
     }
