@@ -135,12 +135,12 @@
       }
     },
     {
-      "version": "0.1.0",
+      "version": "0.1.1",
       "id": "bookmark",
       "icon": "https://pics.freeicons.io/uploads/icons/png/12462759551530273518-512.png",
       "title": "Bookmark",
       "subtitle": "Show a random bookmark",
-      "source": "/components/bookmark/0.1.0/index.vue",
+      "source": "/components/bookmark/0.1.1/index.vue",
       "author": "solobat",
       "grid": [6, 11, 12, 1]
     }
