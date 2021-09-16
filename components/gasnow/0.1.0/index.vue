@@ -108,6 +108,8 @@ module.exports = {
 <style>
 .sp-gas {
   display: flex;
+  position: absolute;
+  bottom: 0;
   align-items: center;
   padding: 10px;
   background: rgba(0, 0, 0, 0.3);
