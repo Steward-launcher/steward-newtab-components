@@ -66,6 +66,8 @@ module.exports = {
     background: rgba(0, 0, 0, .3);
     padding: 10px;
     bottom: 0;
+    height: 40px;
+    line-height: 40px;
     font-size: 14px;
     width: 100%;
     overflow: hidden;
@@ -76,8 +78,14 @@ module.exports = {
     color: #ddd;
   }
 
+  .sp-bookmark:hover .icon-remove {
+    opacity: 1;
+  }
+
   .icon-remove {
     position: absolute;
+    opacity: 0;
     right: 20px;
+    transition: all 200ms ease-in;
   }
 </style>
