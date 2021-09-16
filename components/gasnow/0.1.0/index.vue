@@ -113,6 +113,8 @@ module.exports = {
   align-items: center;
   padding: 10px;
   background: rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
+  width: 74px;
 }
 
 .sp-gas-num {
