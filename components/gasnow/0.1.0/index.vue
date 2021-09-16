@@ -93,6 +93,7 @@ module.exports = {
 
   methods: {
     init() {
+      this.fetchData()
       setInterval(() => {
         this.fetchData()
       }, 10000)
@@ -110,12 +111,14 @@ module.exports = {
 .sp-gas {
   display: flex;
   align-items: center;
-  padding: 4px 8px;
+  padding: 10px;
   background: rgba(0, 0, 0, 0.3);
 }
 
 .sp-gas-num {
   margin-left: 5px;
+  color: #ddd;
+  font-size: 14px;
 }
 
 </style>
