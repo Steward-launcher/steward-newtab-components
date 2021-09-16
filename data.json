@@ -152,7 +152,7 @@
       "subtitle": "Based On Pending Transaction of ETH Mempool",
       "source": "/components/gasnow/0.1.0/index.vue",
       "author": "solobat",
-      "grid": [6, 11, 12, 1]
+      "grid": [0, 3, 4, 1]
     }
   ]
 }
