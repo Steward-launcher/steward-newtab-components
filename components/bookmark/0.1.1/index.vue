@@ -67,7 +67,9 @@ module.exports = {
     padding: 10px;
     bottom: 0;
     height: 40px;
-    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 14px;
     width: 100%;
     overflow: hidden;
