@@ -81,7 +81,7 @@ module.exports = {
 
   computed: {
     gasprice() {
-      return Math.round(this.gas.fast / 1e9)
+      return Math.round(this.gas.fast)
     }
   },
 
