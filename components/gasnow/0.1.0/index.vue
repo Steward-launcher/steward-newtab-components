@@ -100,7 +100,7 @@ module.exports = {
       this.gas = await this.getCurrentGasPrices()
     },
     async getCurrentGasPrices() {
-        let response = await this.axios.get('https://ethgasstation.info/json/ethgasAPI.json')
+        let response = await this.$axios.get('https://ethgasstation.info/json/ethgasAPI.json')
         let prices = {
             slow: response.data.safeLow / 10,
             standard: response.data.average / 10,
