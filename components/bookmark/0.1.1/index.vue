@@ -5,8 +5,6 @@
     </span>
     <span class="icon-remove" @click.stop="onRemoveClick">
       <svg width="20px" height="20px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <title>Icons 56/delete_outline_56 iOS</title>
-          <desc>Created with Sketch.</desc>
           <g id="Icons-56/delete_outline_56-iOS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="delete_outline_56-iOS">
                   <rect x="0" y="0" width="56" height="56"></rect>

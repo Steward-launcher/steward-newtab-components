@@ -96,10 +96,19 @@ module.exports = {
         this.fetchData()
       }, 10000)
     },
-    fetchData() {
-      this.$axios.get('https://www.gasnow.org/api/v3/gas/price?utm_source=steward').then(({ data }) => {
-        this.gas = data.data;
-      })
+   async fetchData() {
+      this.gas = await this.getCurrentGasPrices()
+    },
+    async getCurrentGasPrices() {
+        let response = await this.axios.get('https://ethgasstation.info/json/ethgasAPI.json')
+        let prices = {
+            slow: response.data.safeLow / 10,
+            standard: response.data.average / 10,
+            fast: response.data.fast / 10,
+            timestamp: Date.now()
+        }
+
+        return prices;
     }
   }
 }
