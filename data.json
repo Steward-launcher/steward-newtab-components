@@ -153,6 +153,32 @@
       "source": "/components/gasnow/0.1.0/index.vue",
       "author": "solobat",
       "grid": [0, 3, 4, 1]
+    },
+    {
+      "version": "0.1.0",
+      "id": "weibo",
+      "icon": "https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/svg/weibo.svg",
+      "title": "Weibo",
+      "subtitle": "Weibo timeline",
+      "source": "/components/weibo/0.1.0/index.vue",
+      "author": "solobat",
+      "grid": [0, 3, 8, 5],
+      "args": {
+        "uid": "7737396735",
+        "feature": 0
+      },
+      "argsSchema": {
+        "type": "object",
+        "properties": {
+          "uid": {
+            "type": "string"
+          },
+          "feature": {
+            "type": "number",
+            "enum": [0,1,2,3,4]
+          }
+        }
+      }
     }
   ]
 }
