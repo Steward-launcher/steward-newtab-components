@@ -51,7 +51,7 @@ module.exports = {
         }
       }).then(({ data }) => {
         this.loading = false;
-        const list = data.list
+        const list = data.data.list
         list.forEach(item => {
           item.fold = true
         })
