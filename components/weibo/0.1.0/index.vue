@@ -3,9 +3,6 @@
     customClass="sp-xq-loading">
     <div class="sp-weibo-tl" v-if="list && list.length">
       <div class="sp-weibo-item" v-for="item in list" :key="item.id" @click.stop="onItemClick($event, item)">
-        <div class="sp-weibo-item-ulogo">
-          <img :src="item.user.profile_image_url" alt="">
-        </div>
         <div class="sp-weibo-item-desc" v-html="item.text"></div>
       </div>
     </div>
